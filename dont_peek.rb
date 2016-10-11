@@ -1,5 +1,7 @@
 # Rock, Paper, Scissors: Example solution for Version 1
 
+puts "Ryan was here"
+
 puts "Welcome to Rock, Paper, Scissors!"
 
 puts "rock, paper, or scissors?"
