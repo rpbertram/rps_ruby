@@ -4,6 +4,11 @@ puts "Your move: rock, paper, or scissors?"
 user_move = gets.chomp
 puts "You chose #{user_move}."
 
+while user_move != "rock" && user_move != "paper" && user_move != "scissors"
+  puts "Nice try. You must choose rock, paper, or scissors!"
+  user_move = gets.chomp
+end
+
 comp_move = ["rock", "paper", "scissors"].sample
 
 puts "Computer chose #{comp_move}."
